@@ -1,0 +1,78 @@
+@media (max-width:991px) {
+   
+    .container{
+        width: 95%;
+    }
+    .about-content .count{
+        border: none !important;
+    }
+    .portfolio .nav-link{
+        margin-bottom: 15px;
+    }
+    .resume .col-md-6{
+        margin-bottom: 25px;
+    }
+    nav .nav-link{
+        margin-bottom: 15px;
+    }
+    .navbar .nav-link{
+        width: fit-content;
+    }
+    .navbar .buttn{
+        width: fit-content;
+    }
+}
+@media (max-width:992px )and (min-width:767px){
+    .contact-info .item-float{
+        float: left;
+        
+    }
+    .contact-info .col-md-4{
+        overflow: hidden;
+    }
+    .contact-info .details{
+        width: 70%;
+    }
+}
+@media (max-width:768px){
+    .header{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        /* height: 80vh !important; */
+    }
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .about .container > .row {
+        width: 100%;
+    }
+    .resume{
+        text-align: center;
+    }
+    .testimonials .item{
+        margin-bottom: 20px;
+    }
+    .contact .container > p{
+        width: 100%;
+    }
+    .map .contact-info{
+        width: auto;
+    }
+    .contact-item {
+        margin-bottom: 15px;
+    }
+    .contact-item i{
+        margin-bottom: 10px;
+    }
+
+    footer{
+        padding-top:  5rem !important;
+        padding-bottom: 5rem !important;
+    }
+    footer p:last-of-type, footer p.copy{
+        text-align: center !important;
+    }
+}
