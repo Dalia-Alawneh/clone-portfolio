@@ -67,7 +67,9 @@
     .contact-item i{
         margin-bottom: 10px;
     }
-
+    .carousel-item .item-2, .carousel-item .item-3{
+        display: none;
+    }
     footer{
         padding-top:  5rem !important;
         padding-bottom: 5rem !important;
